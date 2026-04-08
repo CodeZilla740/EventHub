@@ -1,0 +1,72 @@
+/* COLORS */
+:root {
+  --primary: #4f46e5;
+  --secondary: #6b7280;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --bg: #f9fafb;
+  --text: #111827;
+}
+
+/* DARK MODE */
+body.dark {
+  --bg: #111827;
+  --text: #f9fafb;
+}
+
+/* GLOBAL BODY */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* BUTTON SYSTEM */
+.btn-main {
+  background-color: var(--primary);
+  color: white;
+  border-radius: 999px;
+  padding: 6px 16px;
+  border: none;
+  transition: 0.2s;
+}
+
+.btn-main:hover {
+  opacity: 0.9;
+}
+
+.btn-outline-main {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 999px;
+  padding: 6px 16px;
+  background: transparent;
+}
+
+/* CARD */
+.card-ui {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+body.dark .card-ui {
+  background: #1f2937;
+}
+
+/* NAVBAR */
+.navbar-ui {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: white;
+  padding: 10px 40px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+body.dark .navbar-ui {
+  background: #1f2937;
+}
