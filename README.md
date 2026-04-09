@@ -98,10 +98,3 @@ EventHub
 * Email notifications for registrations
 * Admin dashboard analytics
 
-## Author
-
-Anu
-
-## License
-
-This project is for educational purposes.
